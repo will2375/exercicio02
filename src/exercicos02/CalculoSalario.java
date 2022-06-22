@@ -2,7 +2,7 @@ package exercicos02;
 
 import java.util.Scanner;
 
-public class calculoSalario {
+public class CalculoSalario {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

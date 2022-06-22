@@ -2,7 +2,7 @@ package exercicos02;
 
 import java.util.Scanner;
 
-public class rendaliquida {
+public class Rendaliquida {
 
     public static void main(String[] args) {
 
@@ -19,13 +19,13 @@ public class rendaliquida {
         double salario = (valor * hora);
         System.out.println("Seu Salario no mês é: " + salario + " valor bruto em reais");
 
-        double imposto = (11 * 100 / salario);
+        double imposto = (salario * 11 / 100);
 
-        double inss = (8 * 100 / salario);
+        double inss = (salario * 8/ 100);
 
         System.out.println("Valor pago de inss é: " + inss + " reais");
 
-        double sindicato = (5 * 100 / salario);
+        double sindicato = (salario * 5 / 100);
 
         System.out.println("Valor pago ao sindicato é:" + sindicato + " reais");
 

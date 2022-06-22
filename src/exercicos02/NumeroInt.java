@@ -2,7 +2,7 @@ package exercicos02;
 
 import java.util.Scanner;
 
-public class numeroInt {
+public class NumeroInt {
 
     public static void main(String[] args) {
 

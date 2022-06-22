@@ -2,7 +2,7 @@ package exercicos02;
 
 import java.util.Scanner;
 
-public class médiaAritimetica {
+public class MediaAritimetica {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -21,8 +21,8 @@ public class médiaAritimetica {
 
         input.close();
 
-        double notaMédia = ((nota1 + nota2 + nota3 + nota4) / 4);
+        double notaMedia = ((nota1 + nota2 + nota3 + nota4) / 4);
 
-        System.out.println("Sua Média das Notas é: " + notaMédia );
+        System.out.println("Sua Média das Notas é: " + notaMedia );
     }
 }

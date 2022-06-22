@@ -2,7 +2,7 @@ package exercicos02;
 
 import java.util.Scanner;
 
-public class temperatura {
+public class Temperatura {
 
     public static void main(String[] args) {
 
